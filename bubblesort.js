@@ -1,5 +1,4 @@
 function bubbleSort(arr) {
-
   let limit = arr.length;
 
   while (limit--) {
@@ -12,7 +11,6 @@ function bubbleSort(arr) {
   return arr;
 }
 
-
 function swap(arr, i, j) {
   let temp;
   temp = arr[j];
@@ -20,10 +18,3 @@ function swap(arr, i, j) {
   arr[i] = temp;
   return arr;
 }
-
-// let arr = [9, 8, 3, 2];
-// console.log(bubbleSort(arr));
-
-// Look at the first item
-// Compare to second item
-// If first item
